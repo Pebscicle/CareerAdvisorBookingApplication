@@ -1,0 +1,47 @@
+/*HOMEPAGE START*/
+
+.home-page-container
+{
+    background-color:rgb(85, 109, 51);
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    width:100%;
+    height:100%;
+}
+
+/*HOMEPAGE END*/
+
+/*STUDENT PAGE START*/
+
+.page-container
+{   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+
+    width:100vw;
+    height:100vh;
+}
+    .page-content-container
+    {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+
+.page-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    border-bottom: 1px solid black;
+}
+
+/*STUDENT PAGE END*/

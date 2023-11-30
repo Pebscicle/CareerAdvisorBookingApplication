@@ -1,0 +1,11 @@
+
+.calendar-cell
+{
+    border: 1px solid black;
+}
+
+.calendar-cell:hover
+{
+    cursor: pointer;
+    border: 1px solid black;
+}
